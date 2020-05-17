@@ -14,8 +14,7 @@ all:
 	mv pycharm-community-2019.2.4/* AppDir/opt/application
 
 	chmod +x AppDir/AppRun
-	export ARCH=x86_64; appimagetool AppDir $(OUTPUT)
-
+	export ARCH=x86_64 && bin/appimagetool.AppImage AppDir $(OUTPUT)
 	chmod +x $(OUTPUT)
 
 	rm -rf pycharm-community-2019.2.4
