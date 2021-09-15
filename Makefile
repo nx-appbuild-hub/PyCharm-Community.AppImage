@@ -1,5 +1,5 @@
 SOURCE="https://download-cdn.jetbrains.com/python/pycharm-community-2021.2.1.tar.gz"
-DESTINATION="build.tar.bz2"
+DESTINATION="build.tar.gz"
 OUTPUT="PyCharm-Community.AppImage"
 
 
