@@ -1,4 +1,4 @@
-SOURCE="https://download-cf.jetbrains.com/python/pycharm-community-2020.2.1.tar.gz"
+SOURCE="https://download-cdn.jetbrains.com/python/pycharm-community-2021.2.1.tar.gz"
 DESTINATION="build.tar.bz2"
 OUTPUT="PyCharm-Community.AppImage"
 
