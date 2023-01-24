@@ -24,7 +24,7 @@ all: clean init
 	$(PWD)/bin/Apprepo.AppImage --destination=$(PWD)/build appdir boilerplate \
 		libgdk-pixbuf2.0-0 libatk1.0-0 libatk-bridge2.0-0 libgtk2.0-0
 
-	wget --output-document=${PWD}/build/build.tar.gz https://download-cdn.jetbrains.com/python/pycharm-community-2022.2.2.tar.gz
+	wget --output-document=${PWD}/build/build.tar.gz https://download.jetbrains.com/python/pycharm-community-2022.3.1.tar.gz
 	tar -zxvf ${PWD}/build/build.tar.gz  --directory ${PWD}/build/
 
 	echo ''                                                           >> $(PWD)/build/Boilerplate.AppDir/AppRun
